@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&family=Open+Sans&display=swap');
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0 auto;
+    padding:0;
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#root{
+
+    width: 1000px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    width:750px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 25px;
+}
+.signUpForm{
+    width:750px;
+    height: 1000px;
+    
+}
+.signUpLbl{
+    width: 375px;
+    height: 40px;
+    margin-bottom:-5px;
+    display:flex;
+    border-right-color: 1px solid gray;
+    font-size:16px;
+    color:black;
+    text-align: right;
+   
+    
+}
+
+.signUpLbl input{
+    
+    border:1px solid black;
+    background:white;
+    color:black;
+    border-radius: 3px;
+    
+}
+input{
+    width:300px;
+    border-color:1px solid gray;
+}
+
+h1{
+    margin-bottom: 25px;
+}
+form{
+    display: flex;
+}
+
+
+.menu{
+    width:350px;
+    height:75px;
+    background-color: rgb(226, 102, 57);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+    text-align: center;
+
+  }
+  .left-menu{
+    font-weight: 600;
+    width:175px;
+    height:50px;
+    background: gray;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    background-color: rgb(226, 102, 57);
+    font-size:24px;
+    border:1px solid rgb(148, 148, 148);
+    border-right:none;
+  }
+  .left-menu p{
+    background:rgb(226, 102, 57) ;
+    width:175px;
+    height:50px;
+    color:white;
+  }
+  .right-menu{
+    display: flex;
+    flex-wrap: wrap;
+    width:175px;
+    height:50px;
+    background: white;
+    color:black;
+    border:1px solid rgb(147, 147, 147);
+    border-left:none;
+    font-size:24px;
+    font-weight: 600;
+  }
+
+.right-menu p{
+    width:175px;
+    color:gray;
+    height:50px;
+}
+.left-menu.active {
+    background: white;
+    color: black;
+  }
+  
+  .right-menu.active {
+    background-color: rgb(226, 102, 57);
+    color: white;
+  }
+
+.btn-input{
+    width:250px;
+    height:40px;
+    background:rgb(226, 102, 57);
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+
+}
+.btn-input::before {
+    content: none;
+  }
+  
+  .btn-input::after {
+    content: none;
+  }
+
+.btn-signUp{
+    width:200px;
+    height:40px;
+    background: rgb(226, 102, 57);
+    border:none;
+    color:white;
+    font-weight: 600;
+
+}
+
+.lbl-terms-conditions{
+    display: block;
+    font-size:10px;
+    font-weight: 400;
+    margin-bottom:15px;
+}
+.lbl-terms-conditions input{
+    width:12px;
+    height:12px;
+    ;
+}
+.lbl-terms-conditions input a{
+    text-decoration: none;
+    width:12px;
+    height:12px;
+    color: rgb(226, 102, 57);
+}
